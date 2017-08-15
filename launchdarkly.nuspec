@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Ricardo.LaunchDarkly.iOS</id>
+        <version>2.5.1</version>
+        <description>Xamarin Binding Library - LaunchDarkly iOS SDK</description>
+        <authors>Jerome HASCOET</authors>
+        <owners>ricardo.ch AG</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>LaunchDarkly iOS</title>
+        <releaseNotes>LaunchDarkly iOS SDK v2.5.1</releaseNotes>
+        <summary>Xamarin Binding Library - LaunchDarkly iOS SDK</summary>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/ricardo-ch/xamarin-launchdarkly-ios/</projectUrl>
+        <copyright>Copyright (c) 2017 ricardo.ch AG</copyright>
+        <tags>Xamarin.iOS, launchdarkly</tags>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Ricardo.LaunchDarkly.iOS/Ricardo.LaunchDarkly.iOS/bin/Release/Ricardo.LaunchDarkly.iOS.dll" target="lib/Xamarin.iOS10/Ricardo.LaunchDarkly.iOS.dll" />
+    </files>
+</package>
