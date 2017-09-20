@@ -41,10 +41,10 @@
     <ObjcBindingCoreSource Include="Structs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="..\..\..\Projects\LD\libLaunchDarkly.a">
+    <NativeReference Include="libLaunchDarkly.a">
       <Kind>Static</Kind>
       <ForceLoad>True</ForceLoad>
-      <IsCxx>True</IsCxx>
+      <SmartLink>False</SmartLink>
     </NativeReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
