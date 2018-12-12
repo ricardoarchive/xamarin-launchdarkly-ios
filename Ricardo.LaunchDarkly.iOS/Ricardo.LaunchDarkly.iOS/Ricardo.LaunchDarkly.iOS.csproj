@@ -43,8 +43,9 @@
   <ItemGroup>
     <NativeReference Include="libLaunchDarkly.a">
       <Kind>Static</Kind>
-      <ForceLoad>True</ForceLoad>
+      <Frameworks>UIKit Foundation CoreGraphics</Frameworks>
       <SmartLink>False</SmartLink>
+      <ForceLoad>True</ForceLoad>
     </NativeReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
